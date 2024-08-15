@@ -12,5 +12,17 @@ fun main() {
 // Función que debe desarrollar la lógica para la solución del problema
 fun problema7() {
     // Desarrolle aquí la lógica
+    println("N:")
+    var N = readln().toInt()
+    var s = 1
+    if (N>0){
+        for (i in 1..N){
+            s+=i*i*i
+        }
+        println("s = ${s-1}")
+
+    }else{
+        println("Error")
+    }
 
 }

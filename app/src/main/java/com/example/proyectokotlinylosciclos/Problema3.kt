@@ -12,5 +12,14 @@ fun main() {
 // Función que debe desarrollar la lógica para la solución del problema
 fun problema3() {
     // Desarrolle aquí la lógica
+    println("n:")
+    var n = readln().toInt()
+    var s = n
+    while(n != 0){
+        println("n:")
+        n = readln().toInt()
+        s=s+n
+    }
+    println("Suma = $s")
 
 }

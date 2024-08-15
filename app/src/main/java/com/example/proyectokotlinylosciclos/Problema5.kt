@@ -12,5 +12,17 @@ fun main() {
 // Función que debe desarrollar la lógica para la solución del problema
 fun problema5() {
     // Desarrolle aquí la lógica
+    println("n:")
+    var n = readln().toInt()
+    var p = 0
+    while(n != -1){
+        if (n%2 == 0){
+            p++
+        }
+        println("n:")
+        n = readln().toInt()
+    }
+    println("Pares = $p")
+
 
 }
